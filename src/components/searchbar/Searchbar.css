@@ -8,6 +8,11 @@
 
 .search-section {
   display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
 }
 
 .search-input {
@@ -35,10 +40,45 @@
   width: 50%;
 }
 
+.search-btn {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 30px;
+  font-size: 0.9rem;
+  font-family: Varela Round;
+  border-radius: 3px;
+  outline: none;
+  background-color: #2193b0;
+  color: #fff;
+  border-color: #2193b0;
+  transition: 0.3s;
+}
+
 .search-bar h2 {
   width: 140px;
   font-size: 1rem;
   margin-bottom: 30px;
+}
+
+.advanced-search-bar {
+  transition: 0.5s;
+}
+
+.advanced-search-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.advanced-search-bar p {
+  cursor: pointer;
+  font-size: 1rem;
+  width: 6%;
+}
+
+.advanced-search-bar p:hover {
+  color: gray;
+  transition: 0.5s;
 }
 
 h2:hover {

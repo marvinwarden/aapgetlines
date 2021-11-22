@@ -1,71 +1,105 @@
 import "./Searchbar.css";
 import Table from "../results-table/Table.js";
-import AdvancedSearch from "./AdvancedSearch";
 import { useState } from "react";
 import data from "../../lines.json";
 
 export default function Searchbar() {
-  const [advancedSearchLoad, setAdvancedSearchLoad] = useState(false);
-  const [showTable, setShowTable] = useState(true);
+  const [project, setProject] = useState("");
+  const [character, setCharacter] = useState("");
+  const [episode, setEpisode] = useState("");
+  const [line, setLine] = useState("");
+
   const [result, setResult] = useState([]);
 
-  // open and close advanced search
-  const advancedSearchOpen = () => {
-    setAdvancedSearchLoad(true);
-  };
-  const advancedSearchClose = () => {
-    setAdvancedSearchLoad(false);
-  };
-
   // data search from form input
-  const characterSearch = (e) => {
-    const newSearch = e.target.value.toLowerCase();
-    const matchedSearch = data.filter((result) =>
-      result.character.toLowerCase().includes(newSearch)
-    );
-
-    if (newSearch !== "") {
-      setResult([matchedSearch]);
-      setShowTable(true);
-    } else {
-      setResult([]);
-      setShowTable(false);
-    }
-  };
 
   const lineSearch = (e) => {
-    const newSearch = e.target.value.toLowerCase();
-    const lineSearched = data.filter((result) =>
-      result.line.toLowerCase().includes(newSearch)
+    const characterSearched = data.filter((result) =>
+      result.character.toLowerCase().includes(character)
     );
 
-    if (newSearch !== "") {
-      setResult([lineSearched]);
-      setShowTable(true);
-    } else {
-      setResult([]);
-      setShowTable(false);
+    if (project !== "") {
+      const projectSearched = characterSearched.filter((result) =>
+        result.project.toLowerCase().includes(project)
+      );
+      setResult([projectSearched]);
     }
+
+    if (character !== "") {
+      if (line !== "") {
+        const lineSearched = characterSearched.filter((result) =>
+          result.line.toLowerCase().includes(line)
+        );
+        setResult([lineSearched]);
+      } else {
+        setResult([characterSearched]);
+      }
+    }
+    e.preventDefault();
+  };
+
+  //clear search
+
+  const clearSearch = (e) => {
+    setResult([]);
+
+    setCharacter("");
+    setProject("");
+    setLine("");
+    setEpisode("");
+    e.preventDefault();
   };
 
   return (
     <div className="search-bar">
       <div className="search-section">
-        <div className="search-input-wrapper">
-          <h2>Line search</h2>
-          <label>Project: </label>
-          <input className="search-input" />
-          <label>Character: </label>
-          <input onChange={characterSearch} className="search-input" />
+        <h2>Line search</h2>
+        <div className="search-form">
+          <form>
+            <div className="search-input-wrapper">
+              <label>Project: </label>
+              <input
+                onChange={(e) => setProject(e.target.value.toLowerCase())}
+                className="search-input"
+                value={project}
+              />
+              <label>Character: </label>
+              <input
+                onChange={(e) => setCharacter(e.target.value.toLowerCase())}
+                className="search-input"
+                value={character}
+              />
+            </div>
+            <div className="advanced-section">
+              <div className="advanced-search-bar">
+                <div className="advanced-search-input-wrapper">
+                  <label>Episode Range: </label>
+                  <input
+                    onChange={(e) => setEpisode(e.target.value.toLowerCase())}
+                    className="search-input"
+                    value={episode}
+                  />
+                  <label>Line: </label>
+                  <input
+                    onChange={(e) => setLine(e.target.value.toLowerCase())}
+                    className="search-input"
+                    value={line}
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
-        <div className="advanced-section">
-          <h2 onClick={advancedSearchOpen}>Advanced search</h2>
-          {advancedSearchLoad && (
-            <AdvancedSearch toggle={advancedSearchClose} search={lineSearch} />
-          )}
+        <div className="form-btn">
+          <button onClick={lineSearch} className="search-btn">
+            Search
+          </button>
+          <button onClick={clearSearch} className="search-btn">
+            Reset
+          </button>
         </div>
       </div>
-      {showTable && <Table searchResult={result} />}
+      <Table searchResult={result} />
     </div>
   );
 }

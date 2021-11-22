@@ -1,5 +1,4 @@
 export default function TableData(props) {
-  console.log("data", props.character);
   return (
     <tbody>
       <tr>

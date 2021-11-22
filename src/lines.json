@@ -4,349 +4,199 @@
     "timecode": "9:27:16",
     "character": "Ty",
     "episode": "01",
-    "line": "Nulla nisl."
+    "line": "Nulla nisl.",
+    "project": "Reth"
   },
   {
     "id": 2,
     "timecode": "12:39:11",
     "character": "Heath",
     "episode": "01",
-    "line": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est."
+    "line": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+    "project": "Reth"
   },
   {
     "id": 3,
     "timecode": "16:31:36",
     "character": "Grange",
     "episode": "01",
-    "line": "Ut tellus."
+    "line": "Ut tellus.",
+    "project": "Strange Love"
   },
   {
     "id": 4,
     "timecode": "15:21:16",
-    "character": "Stanislaw",
+    "character": "Indira",
     "episode": "01",
-    "line": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+    "line": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+    "project": "Reth"
   },
   {
     "id": 5,
     "timecode": "20:22:12",
-    "character": "Mordecai",
+    "character": "Indira",
     "episode": "01",
-    "line": "In hac habitasse platea dictumst."
+    "line": "In hac habitasse platea dictumst.",
+    "project": "Strange Love"
   },
   {
     "id": 6,
     "timecode": "14:29:56",
     "character": "Sully",
     "episode": "01",
-    "line": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+    "line": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+    "project": "Reth"
   },
   {
     "id": 7,
     "timecode": "6:25:59",
     "character": "Vannie",
     "episode": "01",
-    "line": "Curabitur gravida nisi at nibh."
+    "line": "Curabitur gravida nisi at nibh.",
+    "project": "Strange Love"
   },
   {
     "id": 8,
     "timecode": "19:59:54",
-    "character": "Ilyse",
+    "character": "Indira",
     "episode": "01",
-    "line": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+    "line": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
+    "project": "Strange Love"
   },
   {
     "id": 9,
     "timecode": "21:37:16",
     "character": "Laughton",
     "episode": "01",
-    "line": "Fusce posuere felis sed lacus."
+    "line": "Fusce posuere felis sed lacus.",
+    "project": "Reth"
   },
   {
     "id": 10,
     "timecode": "12:05:47",
     "character": "Sully",
     "episode": "01",
-    "line": "Duis consequat dui nec nisi volutpat eleifend."
+    "line": "Duis consequat dui nec nisi volutpat eleifend.",
+    "project": "Strange Love"
   },
   {
     "id": 11,
     "timecode": "2:48:08",
-    "character": "Gussie",
+    "character": "Indira",
     "episode": "01",
-    "line": "Aenean lectus."
+    "line": "Aenean lectus.",
+    "project": "Reth"
   },
   {
     "id": 12,
     "timecode": "19:22:24",
     "character": "Michail",
     "episode": "01",
-    "line": "Praesent blandit lacinia erat."
+    "line": "Praesent blandit lacinia erat.",
+    "project": "Not Without My Family"
   },
   {
     "id": 13,
     "timecode": "3:20:57",
     "character": "Caty",
     "episode": "01",
-    "line": "Duis at velit eu est congue elementum."
+    "line": "Duis at velit eu est congue elementum.",
+    "project": "Not Without My Family"
   },
   {
     "id": 14,
     "timecode": "3:44:55",
     "character": "Sully",
     "episode": "01",
-    "line": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam."
+    "line": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+    "project": "Strange Love"
   },
   {
     "id": 15,
     "timecode": "19:11:09",
     "character": "Coretta",
     "episode": "01",
-    "line": "Cras pellentesque volutpat dui."
+    "line": "Cras pellentesque volutpat dui.",
+    "project": "Not Without My Family"
   },
   {
     "id": 16,
     "timecode": "17:35:08",
     "character": "Sully",
     "episode": "01",
-    "line": "Morbi non quam nec dui luctus rutrum."
+    "line": "Morbi non quam nec dui luctus rutrum.",
+    "project": "Strange Love"
   },
   {
     "id": 17,
     "timecode": "9:04:25",
     "character": "Homer",
     "episode": "01",
-    "line": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+    "line": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+    "project": "Strange Love"
   },
   {
     "id": 18,
     "timecode": "11:14:00",
     "character": "Flss",
     "episode": "01",
-    "line": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+    "line": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "project": "Not Without My Family"
   },
   {
     "id": 19,
     "timecode": "23:38:29",
     "character": "Pris",
     "episode": "01",
-    "line": "Mauris sit amet eros."
+    "line": "Mauris sit amet eros.",
+    "project": "Not Without My Family"
   },
   {
     "id": 20,
     "timecode": "15:55:51",
     "character": "Julee",
     "episode": "01",
-    "line": "In hac habitasse platea dictumst."
+    "line": "In hac habitasse platea dictumst.",
+    "project": "Strange Love"
   },
   {
     "id": 21,
     "timecode": "22:59:33",
     "character": "Reese",
     "episode": "01",
-    "line": "Donec dapibus."
+    "line": "Donec dapibus.",
+    "project": "Strange Love"
   },
   {
     "id": 22,
     "timecode": "22:02:46",
     "character": "Lucretia",
     "episode": "01",
-    "line": "Nulla ut erat id mauris vulputate elementum."
+    "line": "Nulla ut erat id mauris vulputate elementum.",
+    "project": "Strange Love"
   },
   {
     "id": 23,
     "timecode": "5:17:36",
     "character": "Calley",
     "episode": "01",
-    "line": "Proin at turpis a pede posuere nonummy."
+    "line": "Proin at turpis a pede posuere nonummy.",
+    "project": "Strange Love"
   },
   {
     "id": 24,
     "timecode": "9:01:17",
     "character": "Jeremias",
     "episode": "01",
-    "line": "Fusce posuere felis sed lacus."
+    "line": "Fusce posuere felis sed lacus.",
+    "project": "Not Without My Family"
   },
   {
     "id": 25,
     "timecode": "9:43:43",
     "character": "Jacquetta",
     "episode": "01",
-    "line": "Fusce posuere felis sed lacus."
-  },
-  {
-    "id": 26,
-    "timecode": "18:29:04",
-    "character": "Faina",
-    "episode": "01",
-    "line": "Nulla tellus."
-  },
-  {
-    "id": 27,
-    "timecode": "23:49:00",
-    "character": "Staffard",
-    "episode": "01",
-    "line": "Suspendisse accumsan tortor quis turpis."
-  },
-  {
-    "id": 28,
-    "timecode": "19:31:27",
-    "character": "Sallyanne",
-    "episode": "01",
-    "line": "Aliquam quis turpis eget elit sodales scelerisque."
-  },
-  {
-    "id": 29,
-    "timecode": "14:14:34",
-    "character": "Shayne",
-    "episode": "01",
-    "line": "Curabitur gravida nisi at nibh."
-  },
-  {
-    "id": 30,
-    "timecode": "3:47:51",
-    "character": "Aeriel",
-    "episode": "01",
-    "line": "Sed vel enim sit amet nunc viverra dapibus."
-  },
-  {
-    "id": 31,
-    "timecode": "7:25:58",
-    "character": "Alvy",
-    "episode": "01",
-    "line": "Nulla justo."
-  },
-  {
-    "id": 32,
-    "timecode": "4:54:12",
-    "character": "Emanuel",
-    "episode": "01",
-    "line": "Cras non velit nec nisi vulputate nonummy."
-  },
-  {
-    "id": 33,
-    "timecode": "19:00:13",
-    "character": "Bearnard",
-    "episode": "01",
-    "line": "Nullam porttitor lacus at turpis."
-  },
-  {
-    "id": 34,
-    "timecode": "16:46:59",
-    "character": "Griz",
-    "episode": "01",
-    "line": "Aliquam erat volutpat."
-  },
-  {
-    "id": 35,
-    "timecode": "7:31:07",
-    "character": "Alwin",
-    "episode": "01",
-    "line": "Pellentesque eget nunc."
-  },
-  {
-    "id": 36,
-    "timecode": "16:43:04",
-    "character": "Jarrad",
-    "episode": "01",
-    "line": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
-  },
-  {
-    "id": 37,
-    "timecode": "20:40:00",
-    "character": "Port",
-    "episode": "01",
-    "line": "Aenean lectus."
-  },
-  {
-    "id": 38,
-    "timecode": "11:02:03",
-    "character": "Barron",
-    "episode": "01",
-    "line": "Suspendisse accumsan tortor quis turpis."
-  },
-  {
-    "id": 39,
-    "timecode": "9:50:55",
-    "character": "Morna",
-    "episode": "01",
-    "line": "Nunc purus."
-  },
-  {
-    "id": 40,
-    "timecode": "14:14:49",
-    "character": "Morgana",
-    "episode": "01",
-    "line": "Nullam varius."
-  },
-  {
-    "id": 41,
-    "timecode": "2:07:25",
-    "character": "Astrid",
-    "episode": "01",
-    "line": "Sed accumsan felis."
-  },
-  {
-    "id": 42,
-    "timecode": "9:05:51",
-    "character": "Auguste",
-    "episode": "01",
-    "line": "Cras in purus eu magna vulputate luctus."
-  },
-  {
-    "id": 43,
-    "timecode": "22:14:55",
-    "character": "Ambrose",
-    "episode": "01",
-    "line": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
-  },
-  {
-    "id": 44,
-    "timecode": "14:54:24",
-    "character": "Warde",
-    "episode": "01",
-    "line": "Nulla tellus."
-  },
-  {
-    "id": 45,
-    "timecode": "6:41:43",
-    "character": "Rosalinda",
-    "episode": "01",
-    "line": "Nullam porttitor lacus at turpis."
-  },
-  {
-    "id": 46,
-    "timecode": "5:22:50",
-    "character": "Wald",
-    "episode": "01",
-    "line": "Praesent lectus."
-  },
-  {
-    "id": 47,
-    "timecode": "2:21:09",
-    "character": "Mortie",
-    "episode": "01",
-    "line": "In est risus, auctor sed, tristique in, tempus sit amet, sem."
-  },
-  {
-    "id": 48,
-    "timecode": "18:25:44",
-    "character": "Kelsi",
-    "episode": "01",
-    "line": "Praesent blandit lacinia erat."
-  },
-  {
-    "id": 49,
-    "timecode": "7:08:40",
-    "character": "Ceil",
-    "episode": "01",
-    "line": "Integer ac neque."
-  },
-  {
-    "id": 50,
-    "timecode": "12:21:48",
-    "character": "Carlene",
-    "episode": "01",
-    "line": "Sed ante."
+    "line": "Fusce posuere felis sed lacus.",
+    "project": "Not Without My Family"
   }
 ]
