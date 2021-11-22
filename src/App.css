@@ -1,0 +1,15 @@
+* {
+  font-family: Varela Round;
+}
+
+body {
+  background: repeating-linear-gradient(360deg, #6dd5ed, #2193b0, #6dd5ed);
+  height: 100%;
+  padding: 5% 15%;
+}
+
+.header {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 2rem;
+}

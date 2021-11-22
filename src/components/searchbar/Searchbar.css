@@ -1,0 +1,48 @@
+.search-bar {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.search-section {
+  display: flex;
+}
+
+.search-input {
+  width: 90%;
+  height: 35px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 3px 8px black;
+  border-radius: 3px;
+  margin: 10px 30px 10px 10px;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.search-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.advanced-section {
+  width: 50%;
+}
+
+.search-bar h2 {
+  width: 140px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: gray;
+  transition: 0.5s;
+}
