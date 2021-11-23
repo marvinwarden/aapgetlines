@@ -43,7 +43,7 @@
     "id": 6,
     "timecode": "14:29:56",
     "character": "Sully",
-    "episode": "01",
+    "episode": "02",
     "line": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
     "project": "Reth"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "timecode": "19:59:54",
     "character": "Indira",
-    "episode": "01",
+    "episode": "02",
     "line": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
     "project": "Strange Love"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "timecode": "12:05:47",
     "character": "Sully",
-    "episode": "01",
+    "episode": "02",
     "line": "Duis consequat dui nec nisi volutpat eleifend.",
     "project": "Strange Love"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "timecode": "3:44:55",
     "character": "Sully",
-    "episode": "01",
+    "episode": "03",
     "line": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
     "project": "Strange Love"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "timecode": "17:35:08",
     "character": "Sully",
-    "episode": "01",
+    "episode": "03",
     "line": "Morbi non quam nec dui luctus rutrum.",
     "project": "Strange Love"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "timecode": "11:14:00",
     "character": "Flss",
-    "episode": "01",
+    "episode": "03",
     "line": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
     "project": "Not Without My Family"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "timecode": "15:55:51",
     "character": "Julee",
-    "episode": "01",
+    "episode": "03",
     "line": "In hac habitasse platea dictumst.",
     "project": "Strange Love"
   },
@@ -171,7 +171,7 @@
     "id": 22,
     "timecode": "22:02:46",
     "character": "Lucretia",
-    "episode": "01",
+    "episode": "03",
     "line": "Nulla ut erat id mauris vulputate elementum.",
     "project": "Strange Love"
   },

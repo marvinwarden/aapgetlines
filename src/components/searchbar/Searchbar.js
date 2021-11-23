@@ -18,23 +18,31 @@ export default function Searchbar() {
       result.character.toLowerCase().includes(character)
     );
 
-    if (project !== "") {
+    if (character !== "" && project !== "") {
+      if (line !== "") {
+        if (episode !== "") {
+          const epSearched = characterSearched.filter((result) =>
+            result.episode.toLowerCase().includes(episode)
+          );
+          epSearched.map((ep) => {
+            console.log(ep.episode);
+            return ep.episode === episode
+              ? setResult([epSearched])
+              : console.log("no match found");
+          });
+        }
+        const lineSearched = characterSearched.filter((result) =>
+          result.line.toLowerCase().includes(line)
+        );
+        return setResult([lineSearched]);
+      }
+
       const projectSearched = characterSearched.filter((result) =>
         result.project.toLowerCase().includes(project)
       );
       setResult([projectSearched]);
     }
 
-    if (character !== "") {
-      if (line !== "") {
-        const lineSearched = characterSearched.filter((result) =>
-          result.line.toLowerCase().includes(line)
-        );
-        setResult([lineSearched]);
-      } else {
-        setResult([characterSearched]);
-      }
-    }
     e.preventDefault();
   };
 
