@@ -15,30 +15,29 @@ export default function Searchbar() {
 
   const lineSearch = (e) => {
     const characterSearched = data.filter((result) =>
-      result.character.toLowerCase().includes(character)
+      result.character.toLowerCase().includes(character.toLowerCase())
     );
 
     if (character !== "" && project !== "") {
-      if (line !== "") {
+      if (episode !== "" || line !== "") {
         if (episode !== "") {
-          const epSearched = characterSearched.filter((result) =>
-            result.episode.toLowerCase().includes(episode)
+          const epSearched = characterSearched.filter(
+            (result) =>
+              result.episode === episode &&
+              result.line.toLowerCase().includes(line.toLowerCase()) &&
+              result.project.toLowerCase().includes(project.toLowerCase())
           );
-          epSearched.map((ep) => {
-            console.log(ep.episode);
-            return ep.episode === episode
-              ? setResult([epSearched])
-              : console.log("no match found");
-          });
+          return setResult([epSearched]);
         }
+
         const lineSearched = characterSearched.filter((result) =>
-          result.line.toLowerCase().includes(line)
+          result.line.toLowerCase().includes(line.toLowerCase())
         );
         return setResult([lineSearched]);
       }
 
       const projectSearched = characterSearched.filter((result) =>
-        result.project.toLowerCase().includes(project)
+        result.project.toLowerCase().includes(project.toLowerCase())
       );
       setResult([projectSearched]);
     }
@@ -67,13 +66,14 @@ export default function Searchbar() {
             <div className="search-input-wrapper">
               <label>Project: </label>
               <input
-                onChange={(e) => setProject(e.target.value.toLowerCase())}
+                onChange={(e) => setProject(e.target.value)}
                 className="search-input"
                 value={project}
+                onKeyDown={(e) => e.key === 13 && lineSearch()}
               />
               <label>Character: </label>
               <input
-                onChange={(e) => setCharacter(e.target.value.toLowerCase())}
+                onChange={(e) => setCharacter(e.target.value)}
                 className="search-input"
                 value={character}
               />
@@ -83,13 +83,14 @@ export default function Searchbar() {
                 <div className="advanced-search-input-wrapper">
                   <label>Episode Range: </label>
                   <input
-                    onChange={(e) => setEpisode(e.target.value.toLowerCase())}
+                    type="text"
+                    onChange={(e) => setEpisode(e.target.value)}
                     className="search-input"
                     value={episode}
                   />
                   <label>Line: </label>
                   <input
-                    onChange={(e) => setLine(e.target.value.toLowerCase())}
+                    onChange={(e) => setLine(e.target.value)}
                     className="search-input"
                     value={line}
                   />
@@ -107,6 +108,7 @@ export default function Searchbar() {
           </button>
         </div>
       </div>
+
       <Table searchResult={result} />
     </div>
   );

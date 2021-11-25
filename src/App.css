@@ -5,7 +5,8 @@
 body {
   background: repeating-linear-gradient(360deg, #6dd5ed, #2193b0, #6dd5ed);
   height: 100%;
-  padding: 5% 15%;
+  padding: 5% 5%;
+  justify-content: center;
 }
 
 .header {
